@@ -1,0 +1,38 @@
+body{
+    background-color: #11151C;
+    color: #CDC5B4;
+}
+#Nome{
+    font-family: Raleway;
+    text-align: center;
+}
+#re{
+    border-radius: 100%;
+    float: left;
+}
+#par{
+    font-family: Quicksand;
+    font-size: 20px;
+    float:inline-end;
+    left: 20px;s
+}
+.princ{
+    font-size: 19px;
+}
+.outr{
+    font-size: 17px;
+}
+#ph{
+    font-size: 20px;
+}
+#oh{
+    font-size:19px
+}
+div{
+    border: 2px solid green;
+}
+.image{
+    height: 250px;
+    position: relative;
+    text-align: left;
+}
