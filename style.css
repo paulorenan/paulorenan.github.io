@@ -36,10 +36,19 @@ header {
   border-radius: 10px;
   margin-bottom: 50px;
   color: whitesmoke;
+  text-align: center;
+}
+
+#mainInfo h1 {
+  font-size: 55px;
+}
+
+#mainInfo p {
+  font-size: 40px;
 }
 
 #profPic {
-  width: 200px;
+  width: 300px;
   border-radius: 30px;
   border: 1px solid gray;
 }
@@ -47,6 +56,7 @@ header {
 #projetos {
   padding: 12px;
   background-color: rgb(53, 57, 66);
+  padding-bottom: 30px;
 }
 
 #divProj {
@@ -57,7 +67,7 @@ header {
 }
 
 #conhe img {
-  width: 40px;
+  width: 50px;
 }
 
 #conhe {
@@ -84,4 +94,24 @@ header {
 
 #em {
   margin-top: 40px;
+}
+
+#contato img {
+  width: 50px;
+}
+
+#contato {
+  text-align: center;
+  background-color: rgb(153, 145, 145);
+  padding-top: 20px;
+}
+
+#contato nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contato a {
+  color: rgb(46, 45, 45);
+  text-decoration: none;
 }
