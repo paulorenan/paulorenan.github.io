@@ -17,6 +17,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 10px;
+}
+
+#divHeader nav {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+#divHeader nav a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 #visu {
@@ -114,4 +126,14 @@ header {
 #contato a {
   color: rgb(46, 45, 45);
   text-decoration: none;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.card-footer p {
+  margin: 0;
 }
